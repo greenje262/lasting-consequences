@@ -1,0 +1,652 @@
+General premise:
+    You're walking to the bookstore to pick up Brick Chutkiss' new book, Lasting Consequences. Along the way, you have several stressful encounters that, depending on how you handle them, remove letters from your story. The goal is to get to the bookstore and buy the book before you are unable to comprehend what is happening.
+
+Options that end the encounter quickly will take away fewer, more valuable letters, while drawing it out will remove more, less valuable letters. Score is based on how many letters are left in the final passage.
+
+There are two paths: the direct route and the scenic route. The scenic route will contain more encounters, and can be considered the "hard" mode.
+
+The structural plan is very simple: instead of being smart and trying to figure out how to turn letters into variables, I will just duplicate the story structure with each choice to make a terrifying passage fractal.
+
+The direct route encounters (5):
+    D1. Your mom calls
+        Ignore the call (1 - U)
+        Answer briefly and let her know you'll call her back (1 - K)
+        Chat with your mom (2 - V, Z)
+    D2. You spot an excellent deal at the grocery store
+        You've got enough cookie dough, walk on by (1 - H)
+        Dash inside and pick up a couple tubes (2 - J, B)
+    D3. A group of tourists ask you to take their picture
+        Apologize and continue walking (1 - A)
+        Accept and take some dope pics (2 - C, Q)
+    D4. You can't remember if you left the oven on at home
+        You probably did, keep walking (1 - N)
+        Call your neighbor and ask them to check for you (3 - X, P, D)
+        Run back home and double check (2 - Y, L)
+    D5. Police have cordoned off a portion of the road
+        Try to talk your way through (2 - I, R)
+        Look for a way around (2 - W, M)
+
+The scenic route encounters (8):
+    S1. A child's kite is stuck in a tree
+        Walk straight past, avoiding eye contact (1 - N)
+        Try to fish the kite out with a stick (3 - Z, K, P)
+        Offer to spot the child as they climb the tree to retrieve the kite (2 - C, M)
+    S2. You run into your old college roommate, Rex
+        Pretend you don't know them and brush by (1 - E)
+        Explain you're in a hurry, but that you'd like to catch up sometime (2 - U, F)
+        Stop and chat for a bit (3 - W, J, X)
+    S3. A belgian waffle stand is offering free samples
+        You aren't hungry - keep moving (1 - R)
+        Wait in line for a sample (2 - B, Y)
+    S4. A turtle is attempting to cross the road
+        Avert your gaze and hope that it makes it across okay (1 - T)
+        Pick it up and carry it across (2 - H, V)
+        Stop traffic and escort the turtle across the street (3 - Q, M, X)
+    S5. You really have to pee
+        Hold it (1 - A)
+        Look for a secluded wooded area to do your business (3 - D, Z, S)
+        Run to the coffee shop around the corner (2 - G, P)
+    S6. You spot a bear lumbering through the park, at a distance
+        Pretend you didn't see anything, and walk away (1 - L)
+        Call animal control (2 - B, C)
+        Try to scare it away (3 - K, V, H)
+    S7. A cyclist drops her wallet as she speeds by you
+        Leave it (1 - I)
+        Try to chase her down (2 - Z, G)
+    S8. You realize the bookstore is closing in fifteen minutes
+        Book it (1 - O)
+        Call the shop and ask them if they can wait a few minutes for you (2 - J, Q)
+
+Initial passage:
+    You wake to the sound of birds chirping outside of your window. The bright morning sun spills across your room, promising a warm and exciting day. You have been looking forward to this day for the past nine months: the release date of Lasting Consequences, Brick Chutkiss' most recent novel. An avid fan of Chutkiss since his sophomore work Under the Gavel, you can't wait to get your hands on his new book. Your friend at the local bookstore said that she would make sure to set aside a copy for you, so your only plan for the day is walking over to the bookstore to pick it up.
+
+    You dress quickly, scarf down a breakfast of jam and toast, and head out the door. The final vestiges of summer blanket the crisp autumn day in a frail warmth, one that evaporates with the slightest breeze. It's a lovely day for a walk. While you are excited to retrieve Lasting Consequences as soon as possible, you entertain the idea of taking the scenic route through the park on your way over.
+
+    [[Direct Route ("Easy" Mode)]]
+    [[Scenic Route ("Hard" Mode)]]
+
+Final passage:
+    After a harrowing journey, you finally arrive at the bookstore. You push open the door, letting the familiar air of the shop wash over you. It is quiet in here, and still, and you feel relief after the stress of your trip. Your friend pops her head out from behind a shelf of young adult fiction, and, spotting you, smiles widely.
+
+    "Hello there," she chirps gaily. "How can I help you?"
+
+    You return her grin, and reply conspiratorially, "Oh, I think you know perfectly well."
+
+    She nods seriously and strides over to the counter, reaching behind it and producing a beautiful hardcover book. The sheen of the jacket reflects the setting sun into your eyes. Your heart flutters, and you accept the book eagerly.
+
+    "You look excited," your friend notes, amused. "Well, enjoy it. Let me know how it is. Never was a big Chuttite myself, but I'm always looking for something to add to the pile." She smiles again.
+
+    You thank her again and again, and she laughs as she shoos you out the door. "Go on now, get to it. I'll see you again soon. Have a good evening!"
+
+    A-54 B-8 C-15 D-27 E-94 F-21 G-22 H-47 I-57 J-3 K-10 L-39 M-9
+    N-52 O-81 P-15 Q-1 R-51 S-47 T-64 U-37 V-7 W-12 X-1 Y-32 Z-0
+
+    E O T I A N R (HS) L U Y D G F (CP) W K M B V J (QX) Z TOTAL: 806
+
+Passage D1
+    Shaking your head, you head straight towards the bookstore. There is no way you'd postpone getting your hands on that book, not after waiting several months for it! A soft breeze clears the path ahead of dead leaves as you stride purposefully towards town. Small homes line the narrow streets, all quiet in the morning air.
+
+    Suddenly, the ringing of your phone cuts through the tranquil morning. The shrill beeping seems loud enough to wake the entire neighborhood. Hastily, you fish the phone from your pocket and glance at the caller ID. It's your mother. You usually wait to call her in the afternoon. Does she need something urgently now?
+
+    [[Ignore the call.]]
+    [[Explain that you're busy and ask her if you can call her back.]]
+    [[Chat with your mother.]]
+
+    Passage D1A
+        After fumbling for a few seconds with the phone, you manage to turn off the ringing. Stuffing the device back into your pocket, you continue on towards the bookstore. It shouldn't take long to pick up the book. You'll give her a call once you're back at home. The phone continues to vibrate in your pocket for a few seconds before going still. Hopefully it wasn't anything important.
+
+        [[Continue.]]
+
+    Passage D1B
+        It won't take long just to explain the situation, you think. You hold the phone up to your ear and answer, "Hello? Mom?"
+
+        Your mother's familiar voice comes charging at you from the other end of the line. "Good morning, dear! How are you doing?"
+
+        It doesn't sound like anything's wrong. You breathe a sigh of relief. "I'm doing well, Mom, thanks. Listen, I'm in the middle of something right now. Do you mind if I call you back?"
+
+        Cheerfully, she responds, "No, not at all, that's quite alright. I'll talk to you later. Bye!"
+
+        You say goodbye and hang up. It's a load off your shoulders to know that nothing seems to be the matter. Feeling better, you slide the phone back into your pocket and continue walking into town.
+
+        [[Continue.]]
+
+    Passage D1C1
+        What could it hurt to talk to your mother for a bit? After glancing around to make sure you wouldn't be disturbing anyone, you pick up the phone. "Hello?"
+
+        Your mother pipes an unusually cheery, "Morning, dear! What are you up to?"
+
+        Initially taken aback, you answer tentatively, "Nothing, Mom, just on my way to the bookstore."
+
+        Even holding the phone away from your ear, you can still hear the loud exultation from her end of the line. Your passion for books is nearly matched by your mother's enthusiasm for your passion.
+
+        "That sounds wonderful, just wonderful! Is there a particular book you're looking for?"
+
+        [[Tell her about the book.]]
+
+        You tell your mother about Lasting Consequences. She listens with rapt attention, throwing in a few excited oohs and aahs along the way. Eventually, the conversation flows to other topics, and the two of you chat for several minutes.
+
+        By the time you say your goodbyes and hang up the phone, you realize that you missed a turn you were supposed to take a while back. Slapping a hand to your forehead, you about face and head back the way you came.
+
+        [[Continue.]]
+
+Passage D2
+    The quiet residential neighborhoods begin to give way to the commercial strip that is Main Street. The hush of the houses has grown to a stifled hum, as businesses begin to open and the occasional vehicle rumbles slowly down the causeway. This time of day always serves to relax you. The evidence of activity has not yet replaced the feeling of solitude the early morning provides, and this transitory state makes you feel spectral, like a ghost floating contentedly through a world that does not notice them.
+
+    You are shaken from your aspirations for the afterlife by the market on the corner, where you do most of your grocery shopping. Bill, the proprietor, has just set a sign out front advertising buy-one-get-one cookie dough for a limited time. That's a pretty good deal, and you do eat a lot of cookie dough. You imagine enjoying chcoolate chip cookies fresh from the oven as you're curled up on the couch reading your book. That's a pretty enticing image.
+
+    [[You might still have cookie dough at home. Walk on by.]]
+    [[Dash inside and pick up a couple tubes.]]
+
+    Passage D2A
+        Cookies are a good idea, but one thing at a time. Perhaps you can stop by the bakery on the way home. Your top priority is getting to the bookstore. Swallowing your desire for treats, you march stoically past the market, offering a stiff "Good morning!" to Bill. He returns the greeting, if not a bit quizzically.
+
+        [[Continue.]]
+
+    Passage D2B1
+        Oh, what's the harm? After all, you know exactly where the cookie dough is. This won't take long. You whisk past Bill with a hasty "Morning Bill!". Mechanically, you make your way straight to the aisle where the cookie dough usually is. Along the way, you wonder to yourself if you might not like having some walnuts to mix in as well.
+
+        So occupied is your mind, that by the time you arrive in front of the cookie dough, you realize it isn't there. You stare at the empty shelf for a moment. There's no way it could already be sold out. You're pretty sure you're the first person to come in today.
+
+        [[Swallow your panic and look around.]]
+
+        You sweep your gaze up and down the aisle one more time, just to make sure that you didn't miss it. Not here. You slowly exit the aisle, and in front of you sits a large display of cookie dough, moved from the baking aisle to a more central location. You must have walked right by in your haze. Sheepishly, you buy a couple tubes of cookie dough and return to your walk.
+
+        [[Continue.]]
+
+Passage D3
+    Before long, you find yourself at the beating heart of Main Street, fondly referred to as the Plaza. The street flows into a roundabout, which encircles a lush, green space filled with park benches and the town's claim to fame, the Iron Goat. The Iron Goat is a meteorite that fell to Earth long ago, and was shaped into the vague figure of a goat. Because the composition of the statue is almost completely iron, it is unbelievably heavy, and legend has it that anyone strong enough to topple the Iron Goat would be awarded gold and jewels beyond their wildest dreams.
+
+    Nowadays, it makes a good selfie spot for tourists. And as you cross into the Plaza, you find just such a group of college-age boys, giggling and daring each other to give the old goat a shove. As you pass near, one of them calls out "Hey there! Do you mind taking our picture?" You lock eyes with him for a moment, his expectant gaze fixed on you.
+
+    [[Apologize and keep walking.]]
+    [[Agree to help them capture this memory.]]
+
+    Passage D3A
+        Breaking eye contact, you mumble a half-hearted apology, something about being in a rush, and continue walking. You can feel the young man deflate as you pass him, and a pang of guilt strikes your heart. Someone else will walk by soon, you tell yourself. They'll be fine.
+
+        By the time you cross the Plaza and make it to the other side, the sting of rejecting the opportunity to play cameraman has faded somewhat, and with every step, you draw closer to the bookstore and your fresh new copy of Lasting Consequences. You pick your chin up and nod resolutely to yourself.
+
+        [[Continue.]]
+    
+    Passage D3B1
+        You smile warmly and take the phone being offered. The boys line up in front of the goat, and you take a variety of pictures, serious and goofy and everything in between. Despite yourself, you soon find yourself laughing along with them. It really is rare to find a group like this so bright-eyed and energetic in the morning.
+
+        "By the way," one of them asks. "Do you have any recommendations of places to eat around here? We just got in last night, and don't really have the lay of the land yet." As it turns out, you consider yourself quite experienced when it comes to breakfast places.
+
+        [[Offer a few good diner recommendations.]]
+    
+    Passage D3B2
+        You share a few of your secret spots with them, giving perhaps a little too much detail on each one. They listen politely and nod patiently as you drone on about the relative crispness of home fries and the cost-benefit analysis of each breakfast special. After a few minutes, you catch yourself.
+
+        You ask them where they came from, and what brought them here. They look at one another, before the one who called out to you shares that they're on the crew team for a school a few hours away. "We heard about the Iron Goat," he explains, "And we had to give it a good shove." He beams innocently, and you shake your head in disbelief. The tale of the Iron Goat must be more widespread than you thought. You bid them farewell and they walk off, laughing and shoving each other gleefully in the morning sunlight.
+
+        [[Continue.]]
+
+Passage D4
+    As you leave the Plaza, Main Street quickly evaporates back into a crowded residential neighborhood. Bland, regular houses sit on narrow lots, windows facing each other with barely a few meters between them. Only the town's municipal buildings dotting the area offer any respite from the tight grid of houses. The bookstore is hidden beyond a labyrinth of twisting neighborhood streets.
+
+    As you stand upon the threshold of the tangled nest of roads and avenues, a sudden thought crosses your mind. Did you turn the stove off when you left your house? You're almost certain you did, yet...you can usually remember with clarity the action of turning off the stove, but today, you can't. Well, no matter, you definitely turned it off...right?
+
+    [[Keep going. You're positive you turned it off.]]
+    [[Give your neighbor a quick call and see if they can check for you.]]
+    [[Run back home to double check.]]
+
+    Passage D4A
+        You shake your head. You definitely turned the stove off. No need to double check, no need to worry. You always turn it off. Besides, you're nearly at the bookstore now. You might as well pick the book up before heading back.
+
+        The mazelike streets lie ahead of you. Unbidden, a small lump forms in your throat. You're not sure why you get nervous traversing these streets. Maybe you're a little claustrophobic. Thankfully, by this point, you know the best way through the neighborhood, and you continue walking with confidence.
+
+        [[Continue.]]
+    
+    Passage D4B1
+        You decide to give your neighbor a quick call. They should be able to peek in your kitchen window and let you know whether the stove is on or not. As your finger hovers over the call button, you wonder whether they might still be asleep or not. Shrugging, you call and wait for them to pick up.
+
+        After a few rings, you get a groggy, "Hello?" She was definitely asleep.
+
+        You kick yourself silently as you respond, "Hi, Fran? It's me. I'm out of the house right now, and I'm afraid I may have left the stove on. Would you mind just checking on it for me?"
+
+        A short pause, then, "Yeah, sure, I'll check. One second." Fran sets the phone down and you hear her rustling and moving about outside of the phone's reach.
+
+        [[Wait patiently.]]
+    
+    Passage D4B2
+        After a minute or two, Fran picks the phone back up. "Sorry about that, I was just waking up." You can hear her try to choke back a yawn. "I'm heading outside now."
+
+        You stare up at the sky as you wait for Fran to make the fifty meter journey from her front door to yours.
+
+        Before long, you hear her mumble a bit, and some more rustling. You frown. "Fran? Everything alright?"
+
+        She curses under her breath. "Yeah, yeah, it's fine. I can't...quite-" More rustling and a loud thud. "-see into the window."
+
+        [[Suggest that she use one of your patio chairs.]]
+
+    Passage D4B3
+        Closing your eyes, you think about your backyard, and what your neighbor could use to sneak a peek into the kitchen window. "Hey Fran," you begin. "You can use one of the patio chairs in the backyard. That should get you up high enough to see into the kitchen."
+
+        "Right, right, hang on." You hear her walking, then more rustling. Finally, after another minute or two, "Okay, I'm up. Looks like your stove is off. Okay?"
+
+        "Thank you, Fran, you're a lifesaver. Now, if you could put back the-" The phone clicks, and glancing at your phone, you see your neighbor has hung up. You shrug. At least you know for sure that the stove is off now. You make your way into the labyrinthine passages of houses, across which lies the bookstore.
+
+        [[Continue.]]
+
+    Passage D4C1
+        Picking up the book doesn't matter if it means your house burns down. You race back to your house. You ran track in high school, but those days are long behind you, and you find yourself huffing and puffing by the time you arrive at your home, which is intact and conspicuously not on fire.
+
+        You quickly check inside, but the stove is off. Looks like you were okay after all. Oh well. Better safe than sorry, you suppose.
+
+        [[Make your way back towards the bookstore.]]
+    
+    Passage D4C2
+        Now confident that your house will still be there when you return, you make your way back to the complex web of residential streets that stretch between Main Street and the bookstore.
+
+        The labyrinthine stretch of homes is laid out before you. It took you some time before you felt comfortable navigating these streets. For a while, you would get lost in the mazelike passages, among the dozens of similar homes, unique only in how the residents decided to adorn them. Now, however, you are confident you know which way to go, and so you move forward.
+
+        [[Continue.]]
+
+Passage D5
+    As you make your way methodically through the close-knit network of homes, you mark off landmarks as you pass them. The home with all the garden gnomes. The house flying the colors of the local baseball team. The tips of the church spires just barely visible beyond the row of homes on Elmshurst Street.
+
+    As you round the corner near the far end of the maze, you see the street ahead has been cordoned off, and a few police cars are blocking the road. It doesn't really look like you can skirt around them, but maybe they'll let you slip through if you ask.
+
+    [[Try to talk your way through.]]
+    [[Look for another way around.]]
+
+    Passage D5A1
+        You won't be any bother, so maybe they'll just let you sneak through if you don't interfere with their work. As you approach the barriers, an officer standing by holds up a hand and calls out to you. "Sorry, the street's closed. You'll have to go around."
+
+        You flash your most winning smile and begin, "Morning, officer. I'm just looking to get to the other side of the-"
+
+        She cuts you off. "Unfortunately, we aren't allowing anyone beyond the tape just yet. You'll have to find another way around."
+
+        You look over her shoulder at the scene beyond. It doesn't appear like anything is going on. You plead with the officer. "I'll be quick, I'm just trying to-"
+
+        She shakes her head. "Like I said, no one can cross the tape just yet. Please find another way around."
+        
+        Rebuffed once again, you thank her, sigh, and turn around. Looks like you'll have try your luck back in the maze.
+
+        [[Attempt to navigate a new route.]]
+
+    Passage D5A2
+        Though you have been forced to find a new route through the tangle of streets, it does not take you long to reach the other side. You emerge onto a street much busier than the subdued residential roads. Taking a moment to get your bearings, you realize that you can just spot the familiar brick of the bookstore from behind a few other buildings. Overjoyed, you make your way towards it quickly.
+
+        [[Continue.]]
+    
+    Passage D5B1
+        Wanting to steer far clear of whatever is going on behind the police tape, you duck down a different street. You try to maintain your current course, but the tortuous paths carved by the identical asphalt streets soon turn you completely around. Suddenly, you look up and realize you are completely lost.
+
+        Not to worry, you think. If you follow one road, it should take you out of this maze of houses. And you know you want to move generally east, towards the sun that has not yet reached its zenith.
+
+        [[Follow your instincts.]]
+    
+    Passage D5B2
+        Though you have been forced to find a new route through the tangle of streets, it does not take you long to reach the other side. You emerge onto a street much busier than the subdued residential roads. Taking a moment to get your bearings, you realize that you can just spot the familiar brick of the bookstore from behind a few other buildings. Overjoyed, you make your way towards it quickly.
+
+        [[Continue.]]
+
+Passage S1
+    You've got time, so why not take the road less traveled? You head off in the direction of the park, winding your way down through the empty country roads, lined with large, gnarled trees whose leaves sparkle gold in the morning's glow. You are immediately pleased with your decision, and bask in the radiant beauty that nature is offering you.
+
+    As you near the entrance to the park, you spot a young boy standing beneath of these golden trees. He is looking up into the branches glumly. Drawing near, you can see a kite has lodged itself firmly within the upper branches of the tree. The boy, noticing your approach, turns towards you. You can see the hope in his eyes as he regards your approach.
+    
+    [[Walk right past, avoiding eye contact.]]
+    [[Attempt to fish the kite out of the tree with a stick.]]
+    [[Offer to spot the child while he climbs up to get the kite.]]
+
+    Passage S1A
+        You feel bad, but there's not really anything you can do. You turn away and start heading down the dirt path that heads into the park. The child says nothing, but you can feel his faith in adults slipping away. His parents are probably around, you tell yourself, and they'll help him get his kite out of the tree. You don't feel much better.
+
+        [[Continue.]]
+    
+    Passage S1B1
+        It shouldn't be too difficult for you to get the kite out of the tree. After all, you're much taller than the young boy. You walk over to him and kneel down. "Would you like some help getting your kite back?"
+
+        Shyly, the boy nods. You can see his eyes are a little puffy. How long has he been standing here?
+
+        "Okay! I'll give you a hand. Do you have a stick that we can use to fish it out?" The boy shakes his head. "Well, let's look for one, okay?" He nods again, his face breaking into a wide smile, and starts searching around the tree.
+
+        You stand up and take a look around. There's got to be a stick somewhere.
+
+        [[Search for a stick.]]
+
+    Passage S1B2
+        The entrance to the park is well kept, and seems to be devoid of any of the regular autumn detritus, like fallen sticks or leaves. You curse the landscapers under your breath for their ability and commitment to their work. Finally, after ranging into a dense thicket of hedges, you find a long and sturdy branch. It should do just the trick for getting the kite out of the tree.
+
+        Triumphantly, you return with the stick in hand. Now to get the kite out of the tree.
+
+        [[Go kite fishing.]]
+
+    Passage S1B3
+        You start to poke the long branch into the tree. At first, you're afraid that the stick won't be long enough, but soon you're able to catch the edge of the kite with it. Grinning, you carefully coax the kite free from the tree's gnarled clutches.
+
+        As it falls into the child's arms, he squeals with delight and blurts out a quick "Thank you!" before scurrying off back into the park. Satisfied, you toss the stick back into the thicket and continue into the park.
+
+        [[Continue.]]
+
+    Passage S1C1
+        Glancing up at the kite in the tree, it doesn't seem to be all that high to you. That being said, you aren't exactly keen on climbing trees. You approach the child and ask, "Would you like me to lift you up into the tree so you can get your kite?"
+
+        The child seems somewhat taken aback, and looks around before nodding nerviously. "Don't worry," you reassure him. "I'll wait down here to catch you if need be." Somewhat reluctantly, the boy allows you to hoist him up into the tree.
+
+        [[Spot him as he retrieves the kite.]]
+
+    Passage S1C2
+        From the way the child is navigating the branches, it's clear to you that he hasn't done much tree climbing either. You try to coach him, calling out places for him to put his feet and hands. He acknowledges each of these tips in a thin, shaky voice. Once or twice, he slips on a branch, causing him to let out a soft yelp.
+
+        Before long, however, he is able to reach the height of the tree where his kite is stuck. He frees it and throws it down to you before making his own way back down the tree, slowly. Finally, reaching the lowest branches, he leaps from the tree, landing hard on the ground. You give him the kite, and he scurries off, mumbling his half-hearted thanks under his breath.
+
+        [[Continue.]]
+
+Passage S2
+    Crossing through the large wrought-iron gate that marks the park entrance always feels like passing through into another dimension. The wide green fields unroll in front of you, with small ponds dotting the landscape here and there. Large maple trees are space regularly throughout the park, offering shade to lounging parkgoers.
+
+    The cinder paths that wend their way through the park act as artieries, carrying runners, walkers, dog owners and more. As you are carried along in the stream, you spot a Belgian waffle stand offering free samples. There's a short line, but stopping for a quick bite couldn't hurt, right?
+
+    [[You're still full from breakfast. Keep walking.]]
+    [[Wait in line for a bite or two of heavenly goodness.]]
+
+    Passage S2A
+        It's tempting, but you still haven't finished digesting your toast and jam, which was also delicious. Besides, you're still intent on getting to the bookstore. You focus your gaze straight ahead, trying not to let your eyes wander back over to the stand. Maybe you'll grab one on the way home.
+
+        [[Continue.]]
+    
+    Passage S2B1
+        The line doesn't look very long, so you hop in at the back. You glance around idly as you wait, your gaze often lingering too long on the waffle samples.
+
+        As you wait, you consider just buying a whole waffle. They are delicious, and anything you don't finish you can save for later. You wave that idea away. Better to just stick with the sample.
+
+        [[Wait in line.]]
+
+    Passage S2B2
+        After a few minutes, you finally reach the front of the line. Trying to contain your glee, you reservedly accept the small sample dish. You take a few steps away from the stand, making sure you are a polite distance away, before scarfing the whole thing down in one gulp.
+
+        Bliss. Only a few seconds, maybe, but bliss nonetheless.
+
+        [[Continue.]]
+
+Passage S3
+    Moving through the park, you find yourself caught up in the flow. You watch the trees roll by lazily, and take in the soft thrum of happy voices, punctuated every now and again by the delighted shrieks of children at play. The sights and sounds begin to blend together as you float through the park. You feel very at home.
+
+    All of a sudden, you hear someone calling your name. Shaken from your reverie, you look around. Only when they call your name again do you see them, waving at you from the side of the path. It's your old college roommate, Rex. You haven't talked to them in years.
+
+    [[Pretend you don't know them and keep walking.]]
+    [[Explain you're in a hurry, but would like to catch up sometime.]]
+    [[Stop and chat for a bit.]]
+
+    Passage S3A
+        In a split second, you decide you'd rather not talk to Rex right now. You've already locked eyes with them, so they know you've seen them. You offer a weak smile and wave back, but don't break your stride. They frown in confusion as you pass by. You try to avoid eye contact and continue on your way.
+
+        You'll send them a message on social media later, you tell yourself. You can explain that you didn't immediately recognize them, and only in hindsight did it make sense. You nod to yourself. That should work.
+
+        [[Continue.]]
+    
+    Passage S3B1
+        Apprehensively, you approach Rex. As you draw near, they smile and greet you. "How've you been? You look great."
+
+        You return the smile. "Thanks, Rex, you too. Listen, I'm on a somewhat time-sensitive errand right now. Can we catch up another time?"
+
+        Rex looks surprised, then a little embarrassed. "Sure, sure, no problem. Here, is this still your phone number?"
+
+        [[Exchange contact info.]]
+    
+    Passage S3B2
+        It looks like Rex has your old phone number. You give them the updated number, thinking briefly about all the people who may have tried to reconnect with you at your old phone number, only to be snubbed unintentionally.
+
+        Rex confirms their number with you, then grins. "Fancy running into you here. Didn't think you had stuck around, honestly." You smile weakly in return, then bid them farewell, melting back into the crowd as quickly as possible.
+
+        [[Continue.]]
+    
+    Passage S3C1
+        You are in a bit of a hurry, but you haven't seen Rex in years. You make your way over to where they are. They greet you with a big hug, taking you completely by surprise. When they pull away, you can see that Rex is beaming.
+
+        "Great to see you! Gosh, it's been such a long time. What have you been up to?" Your mind begins racing through a series of blank images and empty sentences, trying to think of what to say.
+
+        "Not too much," you offer timidly. "What about you?"
+
+        "About the same, really," Rex says sheepishly. "I finished law school a couple years ago, and now I'm working as a clerk in the town court."
+
+        You don't know much about it, but that doesn't really sound like "not too much" to you.
+
+        [[Politely excuse yourself.]]
+    
+    Passage S3C2
+        Rex tells you a little bit about their work, and what else they've been doing. Watercolor, apparently. It actually sounds quite interesting, but you're getting anxious to get back on the road to the bookstore.
+
+        Seizing an opening in the conversation, you begin the farewell ceremony. "Hey Rex, it was great to catch up-"
+
+        "Wasn't it?" they interrupt, grinning. "I know! Let's grab a quick waffle. I saw a stand back that way a little bit. My treat."
+
+        Before you can explain to them that you're not hungry, you find yourself being pulled back upstream towards the Belgian waffle stand.
+
+        [[Enjoy your Belgian waffle.]]
+    
+    Passage S3C3
+        You wait with Rex in the Belgian waffle line again, trying not to look the server in the eye as you place your order. A few minutes later, your orders are up.
+
+        The Belgian waffle is delicious, and despite yourself, you can't help but appreciate that Rex pulled you back here, even if it was quite a long distraction.
+
+        The two of you chat for a bit longer before saying your goodbyes. Back in the park path slipstream, you continue on your way, a little quicker than before.
+
+        [[Continue.]]
+
+Passage S4
+    Through the middle of the park runs a busy street, splitting it into two halves. Thankfully, the town has built pedestrian bridges over the road to reduce accidents and improve traffic flow for the park as well as the street. You can hear the rumbling of the street grow louder as you approach it, and the trees give way to a wide sidewalk.
+
+    Just before you start up one of the pedestrian overpasses, you spot a turtle in the street. It looks like it's trying to get to the other side, but it's moving very slowly, and some of the cars don't seem to notice it.
+
+    [[Hope for the best and head up the overpass.]]
+    [[Pick up the turtle and run it across the street.]]
+    [[Stop traffic for the turtle as it crosses.]]
+
+    Passage S4A
+        You don't handle wildlife well. Besides, running into traffic to help it doesn't seem like the best idea either. You keep your gaze fixed forward as you traverse the overpass, fighting the urge to check on the turtle's progress.
+
+        When you reach the other side, you turn back one last time to see if you can spot the turtle, but you don't see it. It's probably fine.
+
+        [[Continue.]]
+    
+    Passage S4B1
+        Watching the cars hurtle by, there is no way that turtle is going to make it. Holding up your hands to the oncoming cars, you make your way on to the street. Once you get close to the turtle, you scoop it up and sprint across the street. Just as you're about to put it down, it extends its neck in a flash and bites your hand.
+
+        [[Scream in agony.]]
+
+    Passage S4B2
+        More surprised than anything else, you let out a yelp and drop the turtle, who begins to scuttle away. As blood starts to evulse from the wound, you feel your face get hot and tears well up in your eyes. Sniffling, you grab the handkerchief from your back pocket and tie it around your hand. It seems to have stopped the flow of blood for now, but you'll definitely have to get that checked out.
+
+        You continue on your way, compulsively checking your maimed hand every few minutes to see if it's been infected.
+
+        [[Continue.]]
+    
+    Passage S4C1
+        Judging by the speed of the turtle and the distance across the street, you figure that it won't take too long for the turtle to cross the street. You wait for a break in traffic, then walk into the street, holding up your hands to the oncoming cars. The turtle at your feet continues his arduous journey, step after agonizing step.
+
+        You avoid looking at the drivers who are stopped at your behest, though you imagine their impatience and displeasure is immense. Only when they begin honking do you feel your face get hot.
+
+        [[Come on, turtle! Keep at it.]]
+
+    Passage S4C2
+        Doing your best to ignore the ire of the waiting drivers, you try to encourage the turtle to move faster with your foot. It seems to have the opposite effect, as the turtle stops and withdraws into its shell a little bit. Grimacing, you continue to pester it until it gets moving again.
+
+        You look up into the cars with a sheepish grin. The looks of frustration on their faces are impossible to mistake. You decide not to look back at them for a little bit.
+
+        [[You're so close, turtle!!]]
+    
+    Passage S4C3
+        After what feels like an eternity, the turtle finally makes it to the other side of the street. The cars take off with a roar that seems to embody their frustration and impatience. You feel satisfied, however, that your turtle pal made it across the street.
+
+        You offer him a little wave, then continue into the other side of the park.
+
+        [[Continue.]]
+
+Passage S5
+    Crossing into the far side of the park, you feel a wave of relief wash over you. It's been an eventful day so far, but once you're through the park, the bookstore is relatively close. You shake out your shoulders a bit and keep walking.
+
+    After a few minutes, you start to feel a pressure in your bladder. Come to think of it, it's been a while since you last used the bathroom. You look around for a port-a-potty, but there are none in sight. Did they remove them for the season? You grit your teeth.
+
+    [[Not far now. Just hold it.]]
+    [[Find a dense, secluded patch of shrubs and do your business.]]
+    [[There's a coffee shop back near the street, head back there.]]
+
+    Passage S5A
+        You try to convince yourself that the tickle in your bladder is no big deal. You sat through Peter Jackson's King Kong, you can handle this. You walk a bit more purposefully, trying to arrange your body in such a way to relieve pressure from your lower torso.
+
+        It's working, you think. You pick up the pace, not wanting to take any chances.
+
+        [[Continue.]]
+    
+    Passage S5B1
+        You walk along, hoping for a dense hedge wall or thicket to offer you cover from the public view. After a few minutes, you don't see anything, and you start to lose hope. The good thing is that the park is relatively quiet today.
+
+        A few more minutes of walking, and you spot it: a low-lying row of hedges surrounding one of those historic schoolhouses or something. You take another look around. Coast is clear.
+
+        [[Okay, quickly now. Get in, get out.]]
+
+    Passage S5B2
+        You scurry over to the hedgerow and begin to relieve yourself. You instantly feel much better, and you commend yourself on sticking it out to find a good spot.
+
+        Every second counts, however, and as you continue to water the hedges, you start to see people approach from beyond the hedge. You're still behind cover, but your window of escape is closing rapidly.
+
+        [[There can't be much more left now. Come on!]]
+    
+    Passage S5B3
+        Just before the innocent parkgoers pass the hedgerow, the valve closes, and you're able to zip up just before they arrive. They smile politely at you, which you take to mean they know exactly what you were doing. You shake off their judgment and turn to head back towards the path. Before you can, however, you hear someone clear their throat behind you.
+
+        You turn and see a frail-looking old woman with fiery eyes glaring at you. Shocked, you try to stammer an apology, but nothing comes out. Had she been standing there the whole time? You try to collect yourself, but she is already gone, muttering to herself as she hobbles away. You flee the scene as quickly as possible.
+
+        [[Continue.]]
+    
+    Passage S5C1
+        You always mark it when you cross the overpass: Dana's Coffee House. You know they have a bathroom, and the proprietor, Dana, is pretty friendly with you. Well, she knows who you are, at least. You decide to dash back to the coffee shop.
+
+        You blow into the coffee shop like a whirlwind, causing all three of the patrons to turn and glance in your direction. You wave hastily to Dana, who barely acknowledges you, and move quickly to the back. Against all odds, there is a line for the bathroom. You curse your rotten luck as you stand in line, hoping against hope you made it there in time.
+
+        [[Hope against hope.]]
+    
+    Passage S5C2
+        After a couple minutes, it's your turn to use the bathroom. Desperately, you pile yourself inside and fumble with the lock before relieving yourself. You made it just in time, and the relief covers you like a blanket.
+
+        After washing your hands, you exit the coffee shop, nodding to Dana on your way out. She shakes her head and you smile to yourself. The way you two understand each other makes you feel like you're part of a secret club. Now relieved, you continue on your way to the bookstore.
+
+Passage S6
+    The far side of the park is your favorite. Most of the infrastructure is on the other side, leaving the far side to grow wild. The trees become dense, and close in around you as you walk on trails silent but for the tweeting of birds and the soft whisper of cars reminding you that you aren't quite as far out as you might think.
+
+    Suddenly, a loud sound from the trees captures your attention. You swing your head around and recognize the bear immediately. It's lumbering along in the same direction as you, but maybe a hundred meters off. If you keep walking, it seems like you'll eventually run right into it.
+
+    [[Big nope. Take another route around.]]
+    [[Call animal control.]]
+    [[Bears are big, but skittish. Scare it off.]]
+
+    Passage S6A
+        Your heart in your throat, you back away slowly. It doesn't appear like the bear has spotted you, or maybe it isn't interested. Either way, there is no chance in hell you're going to get any closer. You backtrack to the last junction in the trail and take a different route. It'll take you a little farther away from the bookstore, but odds are there won't be any freaking bears on it.
+
+        The rest of your journey through the park is fraught with unrecognizable noises and a constant swiveling of your head in all directions. By the time you make it out to the street beyond, you feel exhausted and out of breath. Not far now, you think. The scenic route can stuff it.
+
+        [[Continue.]]
+
+    Passage S6B1
+        Doing your best to stay quiet, you pull out your phone. Thankfully, you have animal control's number saved to your contacts after a disagreement you had with a family of raccoons a few months prior. You dial the number and wait for them to pick up.
+
+        After a few rings, someone answers the phone, "Animal control, how can I help you?"
+
+        You whisper into the phone, "I'm in the town park, on the southern end. There's a bear in the woods."
+
+        "There's what? I can't hear you, speak up!"
+
+        Your voice breaks as you try to scream as softly as you can, "There. Is. A. Bear. In the park!"
+
+        A brief pause. "You pulling my leg?"
+
+        "No I am not pulling your leg!" you practically shriek into the phone. "I'm looking at it right now."
+
+        Some muttering on the other end of the line. Sounds like the probability of a bear roaming the town park is being discussed. Then, finally, "We'll be right there. Wait for us to arrive, okay?"
+
+        [[Wait for them to arrive.]]
+    
+    Passage S6B2
+        It takes much longer than you would have liked, but eventually animal control shows up. They whistle and utter low exclamations that they can't believe it. You stand around anxiously, wondering when they're actually going to do something.
+
+        After a while, they manage to coax the bear to a safe location where they can monitor it while more specialized equipment is brought in. You don't stick around for the whole process. As soon as the path is clear, you book it straight out of the woods. When you reach the street, you breathe a sigh of relief. That's enough adventure for one day.
+
+        [[Continue.]]
+
+    Passage S6C1
+        You don't have a lot of experience with bears, but from your hiking days, you remember that bears don't have any love for humans, and will try to avoid them if they can. All you need to do is make your presence known, and the bear will move on.
+
+        Confident in this knowledge, you start waving your arms and shouting. The bear's ears perk up, and it looks towards you. Good, it spotted you. It should move on now.
+
+        [[Wait for it to leave.]]
+    
+    Passage S6C2
+        The bear starts to lope towards you. Immediately, your confidence is shattered and your courage disappears. You turn tail and run. You can hear the bear crashing through the trees behind you. You leap up into a tree and scramble as best you can into the branches.
+
+        In a matter of seconds, the bear has caught up to you and paws at the tree briefly before beginning to climb. You let out a shriek and climb higher.
+
+        [[Fight for your life.]]
+    
+    Passage S6C3
+        As you climb, the branches become thinner and more sparse. The bear paws at you menacingly. It looks so much bigger up close than it does far away. Sobbing, you grip the tree as tightly as you can and kick at the bear, hoping to dissuade it from pursuing you. After a few minutes of struggle, the bear drops out of the tree and paces around it before losing interest and moving on.
+
+        You hang limply in the tree, trying to collect yourself after what happened. Finally, after several minutes of wheezing and weeping, you tumble out of the tree and back on to the path. Fearing a bear attack out of nowhere, you hurry as quickly and as quietly as you can out of the woods.
+
+        [[Continue.]]
+    
+Passage S7
+    Finally, you're nearing the end of your walk. The bookstore is just down this road a few blocks. After everything that's happened, you're eager to pick up your book and head home. You wonder to yourself whether taking the scenic route was a good idea after all. It's taken all day to get here, and you're starting to get hungry.
+
+    Just before you can think about food, you hear a voice cry out, "Hey, watch out!" Looking up, you see a cyclist barrelling down on you. You gasp and flinch, and the cyclist swerves around you, swearing as she goes by. When your heart stops racing, you realize that she dropped her wallet as she went by. You worry that your directionless ambling caused her to drop it.
+
+    [[Leave it. She's long gone now anyway.]]
+    [[Try to chase her down.]]
+
+    Passage S7A
+        Brushing yourself off, you continue walking. You won't be able to catch her, and you have no idea which way she went, anyway. If you leave it, she'll know which way she came, and where she might have dropped it.
+
+        [[Continue.]]
+    
+    Passage S7B1
+        Without thinking, you grab the wallet and start running in the direction the cyclist was headed. It's been a long time since your track and field days, and you find yourself huffing and puffing after just a short amount of running. By the time you hit your limit, you're gasping for air and still have no idea which way she went. Rats.
+
+        [[Look in the wallet.]]
+    
+    Passage S7B2
+        You crack open the wallet and look for her driver's license. After a little searching, you find it stuck between an old library card a gift card to the local rock climbing gym. You decide to hang on to the wallet for now and try to find her on social media to return it. Otherwise, you can turn it in to the police later.
+
+        For now, though, it's time to head to the bookstore. It should only be a few blocks away now. With the end in sight, your spirits begin to lift.
+    
+    [[Continue.]]
+
+Passage S8
+    The bookstore isn't far now. You can practically feel the weight of the book in your hands, the feel of the glossy cover on your fingers. You can't wait to get home and start reading it. It took a lot of time to get to this point, but you don't work tomorrow, so you can spend all night and all day tomorrow reading it.
+
+    A sudden thought crosses your mind. The bookstore closes early today, doesn't it? A sudden fear grips you. In all the excitement, you had forgotten. You quickly glance at your watch. Oh no. You only have fifteen minutes before the bookstore closes for the night. There is no way you're picking the book up tomorrow, not after everything you've been through today.
+
+    [[Book it.]]
+    [[Call the store and ask them if they'll stay open a little longer.]]
+
+    Passage S8A
+        Gathering the last of your strength, you start sprinting down the street. Your body feels so heavy, but the import of your mission keeps you light. The houses smear to a blur, and you feel as though you are flying.
+
+        Compulsively, you check your watch every thirty seconds, each time doing the mental calculus to determine whether or not you will make it in time. With three minutes left to spare, you arrive at your destination.
+
+        [[Continue.]]
+    
+    Passage S8B1
+        Feeling the excitement that you've held out so much hope for slipping away, you pull your phone out of your pocket and call the bookstore. After a few rings, you hear a familiar voice on the other end of the line. "Hello, Book Nook, how can I help you?"
+
+        You do your best to compose yourself before saying anything. Despite that, your voice still sounds ragged as you talk. "Hey! Hey, it's me."
+
+        The voice brightens. "Oh, hey there! I thought you were going to swing by today. Is everything alright?"
+
+        "It's been kind of a long day, really. I'll tell you about it later. I know you're closing soon, but I'm just a few minutes away, and was hoping you might be able to stay open a bit later?"
+
+        You hear a quiet giggle on the other end of the line. "Of course, no problem at all. I've got some reshelving to do anyway. Take your time."
+
+        [[Hustle on over.]]
+    
+    Passage S8B2
+        You thank your friend and say you'll be there soon. Afer you hang up, you start to feel a pep in your step once again. It's always a pleasure talking to your friend at the bookstore, and you're looking forward to seeing her in a few minutes.
+
+        But more so than that, you're looking forward to getting your hands on Lasting Consequences. The book had better be amazing, for all the trouble you went through to pick it up.
+
+        Several minutes later, you arrive at your destination.
+
+        [[Continue.]]

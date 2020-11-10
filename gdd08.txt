@@ -1,0 +1,32 @@
+[LASTING CONSEQUENCES]
+
+Core mechanic
+    Interactive fiction where letters are lost and gained
+
+Core gameplay loop
+    Read passages and make choices based on these events
+
+Intended player experience
+    Moving towards the best ending possible while retaining comprehension of the text
+
+Theme
+    Nothing serious - maybe an absurd trip to the video rental store or something like that
+
+Primary features
+    Full narrative with beginning, middle, and end
+
+Secondary features
+    Music, sound effects
+
+Polish
+    Visuals, stats?
+
+What do I need to learn?
+    How to use twine
+    Which letters should I take out and when?
+
+Workflow
+    Write story outline
+    Write passages
+    Tune which letters to take out where
+
